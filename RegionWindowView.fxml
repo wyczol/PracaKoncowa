@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="732.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegionWindowController">
+   <children>
+      <Pane prefHeight="747.0" prefWidth="685.0" AnchorPane.bottomAnchor="-15.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="image" fitHeight="510.0" fitWidth="549.0" layoutX="62.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@polska_wojewodztwa.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lbl1" layoutX="147.0" layoutY="133.0" onMouseClicked="#zach" scaleX="2.0" scaleY="2.0" text="1">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl2" layoutX="273.0" layoutY="88.0" onMouseClicked="#pom" scaleX="2.0" scaleY="2.0" text="2">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl3" layoutX="422.0" layoutY="122.0" onMouseClicked="#war" scaleX="2.0" scaleY="2.0" text="3">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl8" layoutX="521.0" layoutY="182.0" scaleX="2.0" scaleY="2.0" text="8">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl4" layoutX="119.0" layoutY="241.0" onMouseClicked="#lubus" scaleX="2.0" scaleY="2.0" text="4">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl5" layoutX="215.0" layoutY="258.0" onMouseClicked="#wielk" scaleX="2.0" scaleY="2.0" text="5">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl6" layoutX="287.0" layoutY="190.0" onMouseClicked="#kuj" scaleX="2.0" scaleY="2.0" text="6">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl7" layoutX="409.0" layoutY="224.0" scaleX="2.0" scaleY="2.0" text="7">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl10" layoutX="341.0" layoutY="327.0" scaleX="2.0" scaleY="2.0" text="10">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl11" layoutX="531.0" layoutY="350.0" scaleX="2.0" scaleY="2.0" text="11">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl9" layoutX="188.0" layoutY="358.0" prefHeight="17.0" prefWidth="6.0" scaleX="2.0" scaleY="2.0" text="9">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl12" layoutX="264.0" layoutY="404.0" scaleX="2.0" scaleY="2.0" text="12">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl13" layoutX="317.0" layoutY="421.0" scaleX="2.0" scaleY="2.0" text="13">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl14" layoutX="406.0" layoutY="392.0" prefHeight="17.0" prefWidth="13.0" scaleX="2.0" scaleY="2.0" text="14">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl15" layoutX="382.0" layoutY="472.0" scaleX="2.0" scaleY="2.0" text="15">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label fx:id="lbl16" layoutX="488.0" layoutY="455.0" scaleX="2.0" scaleY="2.0" text="16">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Label>
+            <Label layoutX="63.0" prefHeight="46.0" prefWidth="421.0" text="Wybierz region do raportowania poprzez kliknięcie na liczbę">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

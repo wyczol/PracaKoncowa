@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <TextField fx:id="IDfield" layoutX="37.0" layoutY="88.0" promptText="Wpisz ID" />
+      <Button fx:id="button" layoutX="218.0" layoutY="88.0" mnemonicParsing="false" onAction="#handlebutton" text="Zaloguj">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="welcomemsg" layoutX="37.0" layoutY="31.0" text="Witaj ! Zaloguj sie (EE)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
